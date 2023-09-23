@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="searchFlightSuite">
+    <test name = "searchFlightTest">
+        <parameter name="Browser" value="chrome"/>
+        <parameter name="Version" value="104.0"/>
+        <parameter name="Platform" value="macOS Ventura"/>
+        <classes>
+            <class name="com.mmt.test.searchFlightPageTest"> </class>
+        </classes>
+    </test>
+
+</suite>
